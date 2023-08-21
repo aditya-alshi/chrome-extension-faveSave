@@ -13,6 +13,9 @@ if(localStorage.getItem("myFavs")){
 
 saveFavorite.addEventListener("click", function(){
     if(fromTextbox.value){
+        if(!fromTextbox.value.includes("https://")){
+            fromTextbox.value = "https://" + fromTextbox.value;
+        }
         myFavs.push(fromTextbox.value);
         fromTextbox.value = "";
         render(myFavs);

@@ -3,24 +3,47 @@ body{
     padding: 10px;
 }
 
+ul{
+    margin-left: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+li{
+    padding-left: 0;
+    margin-top: 3px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18.4px;
+    color:rgb(0, 105, 211);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 input{
+    margin-left:4px;
     color: darkgoldenrod;
     width: 100%;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(0, 105, 211);
     margin-bottom: 4px;
     padding: 4px;
+    height: 32px;
 } 
+
 button{
-    box-shadow: 1px -0.5px #888888;
+    border-radius: 2px;
+    box-shadow: 0.8px -0.8px #fbd1a2;
     margin: 4px;
-    border: 1px solid skyblue;
-    color: darkgoldenrod;
+    border: 1px solid rgb(0, 105, 211);
+    color: #1d4e89;
     padding: 6px;
-    background-color: skyblue;
+    background-color: #fbd1a2;
 }
 
 button:active {
     box-shadow: none;
-    background-color: dodgerblue;
-    border-color: dodgerblue;
 }
