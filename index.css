@@ -1,0 +1,26 @@
+body{
+    min-width: 400px;
+    padding: 10px;
+}
+
+input{
+    color: darkgoldenrod;
+    width: 100%;
+    border: 1px solid blueviolet;
+    margin-bottom: 4px;
+    padding: 4px;
+} 
+button{
+    box-shadow: 1px -0.5px #888888;
+    margin: 4px;
+    border: 1px solid skyblue;
+    color: darkgoldenrod;
+    padding: 6px;
+    background-color: skyblue;
+}
+
+button:active {
+    box-shadow: none;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}

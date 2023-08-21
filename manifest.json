@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name" : "faveSave",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup" : "index.html",
+        "default_icon":"logo.png"
+    },
+    
+    "icons":{
+        "16": "logo.png"
+    }
+}
